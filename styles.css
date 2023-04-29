@@ -92,4 +92,37 @@
     text-align: center;
     padding-top: 10%;
   }
+  footer {
+    background-color: #15202B;
+    color: #FFF;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  .footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .footer-logo img {
+    height: 30px;
+  }
+  
+  .footer-menu a {
+    color: #FFF;
+    text-decoration: none;
+    margin-right: 20px;
+  }
+  
+  .footer-buttons button {
+    background-color: #1DA1F2;
+    border: none;
+    color: #FFF;
+    padding: 10px 20px;
+    border-radius: 25px;
+    cursor: pointer;
+  }
   
